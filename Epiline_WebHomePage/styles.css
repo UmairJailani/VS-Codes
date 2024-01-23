@@ -1,0 +1,1086 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-bar {
+  background-color: rgb(37, 125, 240);
+  width: 100%;
+  height: 35px;
+  color: white;
+  display: flex;
+  position: relative;
+  /* white-space: normal; */
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-info {
+  margin-left: 40px;
+  margin-right: 2px;
+  display: inline-flex;
+  position: relative;
+  align-content: center;
+}
+
+.contact-info span {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  align-content: center;
+}
+
+.contact-info img {
+  filter: invert();
+  margin-top: 08px;
+  align-content: center;
+  margin-left: 8px;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+.social-icon {
+  filter: invert();
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  padding-right: 100px;
+  height: 20px;
+  width: 20px;
+}
+
+.login-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.login-info img {
+  filter: invert();
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+.login-info a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* This is the navbar and intro css code  */
+.navbar-intro {
+  margin: 0px;
+  width: 100%;
+  height: 1000px;
+  /* border: 3px red solid; */
+  background-position: center;
+  background-size: cover;
+  background-image: url("/Epiline_WebHomePage/webpage_background.jpg");
+  background-repeat: no-repeat;
+  filter: brightness(100%);
+  opacity: 1;
+  background-color: blue;
+}
+
+.company-logo img {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  filter: brightness(100%);
+  opacity: 2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-tabs {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-tabs a {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  display: inline;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.login-search {
+  position: static;
+  display: flex;
+  padding-top: 60px;
+  /* padding-right: ; */
+  padding-left: 150px;
+  justify-content: center;
+  filter: invert();
+}
+
+.main-intro {
+  display: block;
+  text-align: center;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 90px;
+  justify-content: space-between;
+}
+
+.para-intro h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.search-intro {
+  display: inline-block;
+  justify-content: center;
+  /* border: red 2px solid; */
+  width: 450px;
+  height: 60px;
+  background: white;
+  border-radius: 15px;
+
+}
+
+.search-intro input {
+  width: 400px;
+  height: 60px;
+  border: none;
+}
+
+.search-intro img {
+  /* position: relative; */
+  border: none;
+  height: 20px;
+  background-color: white;
+}
+
+.product-intro h3 {
+  margin: 50px;
+  color: white;
+  font-size: 30px;
+}
+
+.product-logo img {
+  /* border: 2px red solid; */
+  width: 10%;
+  height: 10%;
+  margin: 30px;
+}
+
+.product-logo #ezicoding {
+  margin: 0px;
+  padding-top: 30px;
+  padding: 0px;
+  width: 350px;
+}
+
+.company-intro {
+  /* border: 3px red solid; */
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.main-photo img {
+  /* border: 3px red solid; */
+  width: 450px;
+  height: 500px;
+  margin: 50px;
+  margin-left: 50px;
+}
+
+.intro-p {
+  /* border: 2px red solid; */
+  margin-top: 40px;
+}
+
+.intro-p p {
+  /* border: 3px blue solid; */
+  text-align: justify;
+  text-justify: inter-word;
+  height: 80px;
+  width: 800px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.intro-p p a {
+  color: blue;
+  text-decoration: none;
+}
+
+.profile-button input {
+  /* border: 3px red solid; */
+  margin-left: 40px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  width: 180px;
+  background-color: blue;
+}
+
+.profile-button ::placeholder {
+  color: white;
+}
+
+.guide {
+  display: block;
+  text-align: center;
+}
+
+.how h2 {
+  font-size: 40px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.guide-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up {
+  margin: 10px;
+  width: 500px;
+}
+
+.sign-up img {
+  margin-top: 0px;
+  padding: 0px;
+  width: 80px;
+}
+
+.sign-up h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.sign-up p {
+  font: 20px;
+}
+
+.select-course {
+  margin: 10px;
+  width: 500px;
+}
+
+.select-course img {
+  margin-top: 0px;
+  padding: 0px;
+  width: 80px;
+}
+
+.select-course h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.select-course p {
+  font: 20px;
+}
+
+.learning {
+  margin: 10px;
+  width: 500px;
+}
+
+.learning img {
+  margin-top: 0px;
+  padding: 0px;
+  width: 80px;
+}
+
+.learning h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+}
+
+.learning p {
+  font: 20px;
+}
+
+.trends {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0%;
+}
+
+.trends h2 {
+  font-size: 30px;
+  font-style: normal;
+  padding: 0%;
+  margin: auto;
+}
+
+.trends p {
+  font-size: 15px;
+}
+
+.course-cards {
+  margin: 70px;
+  padding: 00px;
+}
+
+.course-1row {
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.cards-ai {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-ai:hover {
+  top: -10px;
+}
+
+.cards-blockchain {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-blockchain:hover {
+  top: -10px;
+}
+
+.cards-amazon {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-amazon:hover {
+  top: -10px;
+}
+
+.cards-cyber {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-cyber:hover {
+  top: -10px;
+}
+
+.cards-development {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-development:hover {
+  top: -10px;
+}
+
+.cards-desiging {
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-desiging:hover {
+  top: -10px;
+}
+
+.course-2row {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cards-gaming {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-gaming:hover {
+  top: -10px;
+}
+
+.cards-arch {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-arch:hover {
+  top: -10px;
+}
+
+.cards-iosand {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-iosand:hover {
+  top: -10px;
+}
+
+.cards-marketing {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-marketing:hover {
+  top: -10px;
+}
+
+.cards-3d {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-3d:hover {
+  top: -10px;
+}
+
+.cards-animation {
+  /* border: 2px red solid; */
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin: 0px 20px 20px 20px;
+}
+
+.cards-animation:hover {
+  top: -10px;
+}
+
+.purchase {
+  width: 100%;
+  height: 700px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  background-color: rgb(242, 244, 252);
+}
+
+.purchase h3 {
+  font-size: 50px;
+  margin: 20px;
+  position: absolute;
+  text-align: center;
+  /* border: 2px red solid; */
+  height: 45px;
+}
+
+.flutter {
+  position: relative;
+  margin-top: 120px;
+  width: 400px;
+  height: 500px;
+  border: 2px black solid;
+}
+
+.overlay-f {
+  position: absolute;
+  /* top: 0;
+    left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  height: 50px;
+  bottom: 0;
+}
+
+.overlay-f h5 {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  top: 20px;
+  font-size: 25px;
+}
+
+.overlay-f:hover h5 {
+  color: black;
+  visibility: visible;
+
+}
+
+.overlay-f p {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  bottom: 05px;
+}
+
+.overlay-f:hover p {
+  color: black;
+  visibility: visible;
+
+}
+
+.flutter:hover .overlay-f {
+  border-radius: 02px;
+  box-shadow: 10px;
+  display: block;
+  background: rgba(0, 0, 0, .3);
+  height: 180px;
+  background-color: rgb(252, 252, 252);
+  /* visibility: visible; */
+}
+
+.flutter img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 0;
+  z-index: 0;
+  opacity: .5;
+  filter: brightness(60%);
+}
+
+.title {
+  position: relative;
+  width: 250px;
+  left: 70px;
+  top: 400px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: top .5s ease;
+  color: black;
+  background-color: white;
+  border-radius: 05px;
+}
+
+.flutter:hover .title {
+  position: relative;
+  top: 310px;
+  color: white;
+}
+
+.button-f {
+  display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
+  position: absolute;
+  height: 45px;
+  width: 150px;
+  right: 20px;
+  bottom: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  background-color: blue;
+}
+
+.button-f a {
+  display: block;
+  margin: 5px;
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.flutter:hover .button-f {
+  opacity: 1;
+}
+
+.ai {
+
+  position: relative;
+  margin-top: 120px;
+  width: 400px;
+  height: 500px;
+  border: 2px black solid;
+}
+
+.overlay-ai {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  height: 50px;
+  bottom: 0;
+}
+
+.overlay-ai h5 {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  top: 20px;
+  font-size: 25px;
+}
+
+.overlay-ai:hover h5 {
+  color: black;
+  visibility: visible;
+
+}
+
+.overlay-ai p {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  bottom: 05px;
+}
+
+.overlay-ai:hover p {
+  color: black;
+  visibility: visible;
+
+}
+
+.ai:hover .overlay-ai {
+  border-radius: 02px;
+  box-shadow: 10px;
+  display: block;
+  background: rgba(0, 0, 0, .3);
+  height: 180px;
+  background-color: rgb(252, 252, 252);
+  /* visibility: visible; */
+}
+
+.ai img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 0;
+  z-index: 0;
+  opacity: .5;
+  filter: brightness(60%);
+}
+
+.title {
+  position: relative;
+  width: 250px;
+  left: 70px;
+  top: 400px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: top .5s ease;
+  color: white;
+  background-color: black;
+  border-radius: 05px;
+}
+
+.ai:hover .title {
+  position: relative;
+  top: 310px;
+  color: white;
+}
+
+.button-ai {
+  display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
+  position: absolute;
+  height: 45px;
+  width: 150px;
+  right: 20px;
+  bottom: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  background-color: blue;
+}
+
+.button-ai a {
+  display: block;
+  margin: 5px;
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.ai:hover .button-ai {
+  opacity: 1;
+}
+
+.mastermind {
+
+  position: relative;
+  margin-top: 120px;
+  width: 400px;
+  height: 500px;
+  border: 2px black solid;
+}
+
+.overlay-m {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+  height: 50px;
+  bottom: 0;
+}
+
+.overlay-m h5 {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  top: 130px;
+  font-size: 25px;
+}
+
+.overlay-m:hover h5 {
+  color: black;
+  visibility: visible;
+
+}
+
+.overlay-m p {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  left: 20px;
+  bottom: 05px;
+}
+
+.overlay-m:hover p {
+  color: black;
+  visibility: visible;
+
+}
+
+.mastermind:hover .overlay-m {
+  border-radius: 02px;
+  box-shadow: 10px;
+  display: block;
+  background: rgba(0, 0, 0, .3);
+  height: 300px;
+  background-color: rgb(252, 252, 252);
+  /* visibility: visible; */
+}
+
+.mastermind img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 0;
+  z-index: 0;
+  opacity: .5;
+  filter: brightness(60%);
+}
+
+.title {
+  position: relative;
+  width: 250px;
+  left: 70px;
+  top: 400px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+  transition: top .5s ease;
+  color: white;
+  background-color: black;
+  border-radius: 05px;
+}
+
+.mastermind:hover .title {
+  position: relative;
+  top: 200px;
+  color: white;
+}
+
+.button-m {
+  display: flex;
+  padding-top: 0px;
+  margin-top: 0px;
+  position: absolute;
+  height: 45px;
+  width: 150px;
+  right: 20px;
+  bottom: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  background-color: blue;
+}
+
+.button-m a {
+  display: block;
+  margin: 5px;
+  width: 150px;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.mastermind:hover .button-m {
+  opacity: 1;
+}
+
+.app-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.app {
+  width: 480px;
+}
+.app-info{
+  width: 500px;
+}
+.app-info h3{
+  width: 450px;
+  font-size: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.app-info p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 20px;
+}
+.stores {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-area{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 980px;
+  /* border: 2px red solid; */
+  background-position: center;
+  background-size: cover;
+  background-image: url("/Epiline_WebHomePage/footer-back.jpeg");
+  z-index: 0;
+}
+.footer-area h1{
+  z-index: 2;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  margin: 30px;
+}
+.footer-area h1 a{
+  text-decoration: none;
+  text-align: justify;
+  text-justify: inter-word;
+  color: red;
+}
+.front img{
+  margin-top: 40px;
+  /* border: 2px red solid; */
+  width: 100%;
+}
+.footer-back{
+  display: inline-flex;
+  justify-content: space-evenly;
+  /* background-color: rgb(46, 43, 226); */
+  /* border: 2px red solid; */
+  width: 100%;
+  height: 270px;
+  opacity: .7;
+  color: white;
+}
+.about{
+  /* border: 2px blue solid; */
+  width: 250px;
+}
+.about h3{
+  text-align:left;
+  font-size: 25px;
+}
+.about p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+.course{
+  /* border: 2px green solid; */
+  width: 250px;
+}
+.course h3{
+  text-align:center;
+  font-size: 25px;
+}
+.pages{
+  /* border: 2px purple solid; */
+  width: 250px;
+}
+.pages h3{
+  text-align:left;
+  font-size: 025px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.contacts{
+  /* border: 2px green solid; */
+  width: 400px;
+  /* border: 2px red solid; */
+}
+.contacts h3{
+  margin: 0px;
+  font-size: 25px;
+}
+.cl{
+  display: flex;
+  align-items: center;
+  /* border: 2px blue solid; */
+  margin: 0px;
+  padding: 0px;
+}
+.cl img{
+  /* border: 2px blue solid; */
+  margin-bottom: 40px;
+  width: fit-content;
+  filter: invert();
+}
+.cl p{
+  /* border: 2px white solid; */
+  width: 350px;
+  margin: 6px;
+}
+.no{
+  display: flex;
+  align-items: center;
+  /* border: 2px blue solid; */
+  margin: 0px;
+  padding: 0px;
+}
+.no img{
+  /* border: 2px blue solid; */
+  width: fit-content;
+  margin-bottom: 40px;
+  filter: invert();
+}
+.no p{
+  /* border: 2px white solid; */
+  width: 350px;
+  margin-left: 6px;
+}
